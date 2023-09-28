@@ -1,5 +1,8 @@
+
 :root {
   --bg-color: #010c27;
   --text-color: #FAFAFA;
-  --highlight: 
+  --highlight: linear-gradient(45deg, rgba(247, 234, 240, 1) 0%, rgba(255, 187, 216, 1) 100%);
 }
+
+
