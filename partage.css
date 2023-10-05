@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Pour utiliser League Spartan :
+font-family: 'League Spartan', sans-serif;
+
+Pour utiliser Poppins Light :
+font-family: 'Poppins', sans-serif;
+/**/
 :root {
   --bg-color: #010c27;
   --text-color: #FAFAFA;
   --highlight: linear-gradient(45deg, rgba(247, 234, 240, 1) 0%, rgba(255, 187, 216, 1) 100%);
+  --couleur: rgb(255, 255, 255);
 }
 
+body {
+  background-color: var(--bg-color);
+  color: var(--couleur);
+  font-family: ;
+}
 
+.text-title-logo-name {
+  font-family: 'League Spartan', sans-serif;
+  letter-spacing: 99%;
+}
+
+.text-title-logo-slogan {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 99%;
+}

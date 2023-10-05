@@ -1,12 +1,67 @@
+<!-- Pour tester votre page: https://creacom-dev--borromeniclot.repl.co/achats/ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
+  <link rel="stylesheet" href="/achats/style.css">
+  <title>Achats</title>
 </head>
 <body>
-  
+	<p><h2>Sur cette page, vous pourrez acheter votre site sur mesure ou remettre à niveau de votre site !</h2></br>
+
+<h3>Nos tarifs :</h3></p>
+  <ul>
+    <li>Pour le site sur mesure : 500 €</li>
+    <li>Pour la remise à niveau de votre site : de 100 à 300€ en fonction de votre site à l'origine</li>
+  </ul>
+	<form>
+		<p>
+			<label for="name">Votre Prénom :</label>
+			<input type="text" id="name" name="name" value="Ex : Jean"/><br>
+
+
+			<label for="surname">Votre Nom :</label>
+			<input type="text" id="surname" name="surname" value="Ex : Dupond"/><br/>
+      <label for="produit">Produit Choisi :</label>
+			<select name="produit" id="produit">
+				<option value="">--Merci de Choisir une Option--</option>
+				<option value="tel1">Site internet sur mesure </option>
+				<option value="tel2">Remise à niveau de votre site</option>
+			</select><br/>
+			
+
+			<label for="email">Votre e-mail :</label>
+			<input type="text" id="email" name="email"/>
+			<label for="email">@</label>
+			<input type="text" id="email" name="email"/>
+			<label for="email">.</label>
+			<input type="text" id="email" name="email" size="3"/><br>
+      <input type="submit" onclick="alert('Merci pour votre achat. Vous recevrez dans quelques minutes votre reçu par mail.')" value="J'achète">
+		</p>
+	</form>
+	<br>
+  <p><h1>Promotions</h1>
+  <h2>Pour les entreprises qui débutent :</h2>
+  <img src="/res/reduc.jpeg" alt="affiche reduction" class="reduc">
+</p>
+	<div class="centerimg">
+		<a href="../index.html"><img src="/res/boutonretour.png" alt="bouton retour"/></a>
+	</div>
+  <br><hr><br>
+  <footer>
+    <div class=”bloc footer-contact”>
+      <b>Si vous souhaitez nous contacter :</b>
+      <ul>
+        <li>corentin.lamy@saint-thom.fr</li>
+        <li></li>
+      </ul>
+      <p>corentin.lamy@saint-thom.fr</p>
+      <p>creacombogoss@gmail.com</p>
+      <p>56 Rue du Perron, 69600 Oullins</p>
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,2 +1,6 @@
 @import "/partage.css";
-
+footer {
+  padding: 5px;
+  background-color: #F9CFF5 ;
+  color: #000;
+}
