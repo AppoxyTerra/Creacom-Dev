@@ -1,0 +1,26 @@
+on: push
+name: Publish Website with Tailscale
+jobs:
+  web-deploy:
+    name: 🚀 Deploy Website Every Commit
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get Latest Code
+      uses: actions/checkout@v3
+      
+    - name: Tailscale connect
+      uses: tailscale/github-action@v2
+      with:
+        oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+        oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+    
+    - name: 📂 Sync Files
+      uses: SamKirkland/web-deploy@v1
+      with:
+        target-server: johnny.neon-carp.ts.net
+        remote-user: leo
+        private-ssh-key: ""
+        destination-path: /var/www/nsi-website/
+        exclude: |
+          
+          
