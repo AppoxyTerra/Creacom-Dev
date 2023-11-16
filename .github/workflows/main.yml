@@ -21,6 +21,7 @@ jobs:
         remote-user: leo
         private-ssh-key: ""
         destination-path: /var/www/nsi-website/
-        exclude: |
+        rsync-options: |
+          --exclude 
           
           
