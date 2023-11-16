@@ -7,24 +7,58 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="/organigramme/style.css">
   <link rel="stylesheet" href="/organigramme/style.css">
-  <title>Organigramme</title> 
+  <title>Organigramme</title>
 </head>
 
 <body>
-  <h1>ORGANIGRAMME</h1>
-  <p> <FONT size="5pt"> Nous sommes une jeune entreprise souhaitant innover dans l'industrie du web.(on a un psy si c'est la merde)(non un <em> responsable des ressources humaines </em> pardon) <br> 
-  Découvrez notre équipe ! </FONT> </p>
-  <img src="yeeeeeeee">
+  <div class="titles-and-logo">
+    <img src="/res/icon.webp" class="minilogo">
+    <h1 class="titre-page">ORGANIGRAMME</h1>
+  </div>
+  <p class=paragraphe>
+      Nous sommes une jeune entreprise souhaitant innover dans
+      l'industrie du web. Notre société est
+      composée de talents désirant s'exprimer sur la toile et impatients de réaliser vos commandes. 
+      Découvrez notre équipe !
+  </p>
+  <img src="/res/deforga.png" class="img-organigramme" />
+  <a href=".././index.html"> <img src="/res/retour2.png" class= "retour"/> </a>
+  
+  <div class="bottom-container">
+  </div>
 
-  <br>
+  
+  
   <footer>
-    <p>
-      <ul> <strong> CONTACTS : </strong> <br> <strong> Pour contacter notre responsable de communication : </strong> corentin.lamy@saint-thom.fr <br> <strong> Pour contacter l'entreprise : </strong> creacombogoss@gmail.com <br>       
-      <strong> Où nous trouver : </strong> 56 Rue du Perron, 69600 Oullins
-        </ul>
-    </p>
-</footer>
+    <!-- https://developer.mozilla.org/fr/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox -->
+    <div class=”bloc footer-contact”>
+
+
+
+        <div style= float:left;>
+          <marquee direction="left" width="250 height="200" behavior="alternate" >
+          <img src= "/res/icon.webp" width=150px height=135px class="axee" ></marquee>
+        </div>
+        <div style= float:right;>
+          <marquee direction="left" width="250 height="200" behavior="alternate" >
+            <img src="/res/logo sintomo.png" width=150px height=135px >
+          </marquee>
+        </div>
+
+      <center><div><b>Si vous souhaitez nous contacter :</b>
+         <ul>
+
+            <li>corentin.lamy@saint-thom.fr</li>
+            <li>creacombogoss@gmail.com</li>
+            <li>56 Rue du Perron, 69600 Oullins</li>
+
+          </ul>
+
+        </div></center>
+       
+  </footer>
 </body>
 
 </html>
