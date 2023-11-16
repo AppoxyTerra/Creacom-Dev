@@ -15,3 +15,13 @@ jobs:
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
         protocol: ftp
+        server-dir: /htdocs/
+        exclude: |
+          **/replit.nix
+          **/.git*
+          **/.git*/**
+          **/.replit
+          **/.github*
+          **/.github*/**
+          **/.prettierignore
+        
