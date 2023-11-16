@@ -1,4 +1,4 @@
-@import "/partage.css";
+@import "../partage.css";
 
 body {
   background-color: var(--bg-color);
@@ -82,7 +82,7 @@ input[type="submit"].exercice1_champ {
   width: 160px;
 }
 
-.titre-page {
+.titre-achat {
   font-size: 8rem;
   text-align: left;
   background: linear-gradient(to right, #ff69b4, #f4cdf9);

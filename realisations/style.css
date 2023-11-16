@@ -1,4 +1,5 @@
-@import "/partage.css";
+@import "../partage.css";
+
 footer {
   padding: 5px;
   background-color: #f4cdf9;
@@ -12,11 +13,13 @@ img {
 .custom-slider {
   display: none;
 }
+
 .slide-container {
   max-width: 800px;
   position: relative;
   margin: auto;
 }
+
 .prev,
 .next {
   cursor: pointer;
@@ -34,16 +37,20 @@ img {
   background-color: rgba(0, 0, 0, 0);
   transition: background-color 0.6s ease;
 }
+
 .prev {
   left: 15px;
 }
+
 .next {
   right: 15px;
 }
+
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .slide-text {
   position: absolute;
   color: #ffffff;
@@ -53,6 +60,7 @@ img {
   width: 100%;
   text-align: center;
 }
+
 .slide-index {
   color: #ffffff;
   font-size: 13px;
@@ -60,15 +68,18 @@ img {
   position: absolute;
   top: 0;
 }
+
 .slide-img {
   width: 100%;
-  height: 300px;
+  height: 530px;
   object-fit: cover;
   object-position: center;
 }
+
 .slide-dot {
   text-align: center;
 }
+
 .dot {
   cursor: pointer;
   height: 10px;
@@ -79,18 +90,22 @@ img {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
 .active,
 .dot:hover {
   background-color: #111111;
 }
+
 .fade {
   animation-name: fade;
   animation-duration: 1s;
 }
+
 @keyframes fade {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }

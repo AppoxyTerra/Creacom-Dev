@@ -84,10 +84,61 @@ h1 {
 }
 
 .box {
+  transition: all 500ms ease-in-out;
+
   flex: 1;
   border: 1px solid var(--border-color);
   border-radius: 10px;
-  height: 300px;
-  width: 300px;
+  min-height: 300px;
+  max-height: 300px;
+  max-width: 300px;
   margin: 30px;
+
+  box-shadow: inset 0px 0px 0px var(--border-color), 0px 0px 20px var(--border-color);
+
+  text-align: center;
+
+  overflow-y: hidden;
+}
+
+.box:hover {
+  transform: scale(1.2);
+
+  box-shadow: inset 0px 0px 10px var(--border-color), 0px 0px 20px var(--text-color);
+
+  /*
+  background-color: var(--bg-color);
+  background-image: url("/res/deforga.png");
+  background-size: cover;
+*/
+}
+
+.box img {
+  transition: all 500ms ease-in-out;
+  max-width: 200px;
+  max-height: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.box:hover img {
+  max-height: 0px;
+  margin-top: 0px;
+}
+
+.box h2 {
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+.box p {
+  transition: color 500ms ease-in-out;
+  color: #fafafa00;
+  font-size: 0px;
+}
+
+
+.box:hover p {
+  font-size: 18px;
+  color: #fafafaff;
 }

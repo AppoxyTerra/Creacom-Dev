@@ -80,7 +80,16 @@ footer {
   font-family: "League Spartan", sans-serif;
   margin-left: 2vw;
   margin-top: 2vw;
-  font-size: 4rem;
+  background: var(--highlight);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 8rem;
+  letter-spacing: -4px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 title {
