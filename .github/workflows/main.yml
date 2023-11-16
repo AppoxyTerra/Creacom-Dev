@@ -22,6 +22,12 @@ jobs:
         private-ssh-key: ""
         destination-path: /var/www/nsi-website/
         rsync-options: |
-          --exclude 
+          --exclude **/replit.nix
+          --exclude **/.git*
+          --exclude **/.git*/**
+          --exclude **/.replit
+          --exclude **/.github*
+          --exclude **/.github*/**
+          --exclude **/.prettierignore
           
           
