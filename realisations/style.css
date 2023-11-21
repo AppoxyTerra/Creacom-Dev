@@ -2,9 +2,9 @@
 
 footer {
   padding: 5px;
-  background-color: #f4cdf9;
+  font-size: 18px;
+  background-color: #F9CFF5;
   color: var(--bg-color);
-  width: 80vw;
 }
 
 img {
