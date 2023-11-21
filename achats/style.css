@@ -12,9 +12,6 @@ footer {
   color: var(--bg-color);
 }
 
-.box {
-  display: flex;
-}
 
 .axee {
   margin: 10px;
