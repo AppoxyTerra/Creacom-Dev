@@ -4,6 +4,7 @@ footer {
   padding: 5px;
   background-color: #f4cdf9;
   color: var(--bg-color);
+  width: 80vw;
 }
 
 img {

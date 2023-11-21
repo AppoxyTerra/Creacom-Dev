@@ -4,6 +4,7 @@ footer {
   padding: 5px;
   background-color: #f9cff5;
   color: var(--bg-color);
+  width:85vw
 }
 
 .img-organigramme {

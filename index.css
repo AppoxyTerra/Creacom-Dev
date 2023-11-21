@@ -30,6 +30,8 @@
 
 body {
   background-color: var(--bg-color);
+  margin: 0;
+  max-width: unset;
 }
 
 .logo {
@@ -98,7 +100,7 @@ h1 {
 
   text-align: center;
 
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 .box:hover {
@@ -119,6 +121,7 @@ h1 {
   max-height: 200px;
   margin: auto;
   margin-top: 30px;
+  width: 100%;
 }
 
 .box:hover img {
@@ -126,19 +129,32 @@ h1 {
   margin-top: 0px;
 }
 
+.box a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 .box h2 {
   font-size: 28px;
-  margin-top: 30px;
+  margin: 20px;
 }
 
 .box p {
   transition: color 500ms ease-in-out;
-  color: #fafafa00;
+  color: #fafafa;
   font-size: 0px;
+  /*margin: 0px 20px 20px 20px;*/
 }
 
 
 .box:hover p {
   font-size: 18px;
-  color: #fafafaff;
+  color: #fafafa;
+}
+
+footer {
+  padding: 5px;
+  font-size: 18px;
+  background-color: #F9CFF5;
+  color: var(--bg-color);
 }
